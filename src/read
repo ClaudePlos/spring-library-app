@@ -1,0 +1,17 @@
+Rest:
+GET http://localhost:8080/api/books/all
+POST http://localhost:8080/api/books -- insert
+{
+    "id": 3,
+    "title": "Secret ",
+    "productionYear": "2009-01-01"
+}
+PUT http://localhost:8080/api/books -- update
+{
+    "id": 3,
+    "title": "Secret 2",
+    "productionYear": "2009-01-01"
+}
+DELETE http://localhost:8080/api/books?id=3 -- delete
+
+End
